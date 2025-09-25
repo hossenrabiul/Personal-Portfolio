@@ -1,0 +1,219 @@
+.works {
+  padding: 60px 10px;
+  background-color: #101010;
+}
+.cards {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  position: relative;
+  width: 370px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background-color: #0a0a0a;
+}
+.card .tag {
+  position: absolute;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+  left: 40%;
+  top: -14px;
+}
+.icons .icon {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  font-size: 25px;
+  stroke: red;
+}
+.card h4 {
+  margin: 18px 0;
+  font-size: 20px;
+  color: var(--white);
+}
+.card p {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.card ul {
+  margin-top: 40px;
+}
+.card li {
+  /* padding-top: 6px; */
+  list-style: none;
+  font-size: 13px;
+  color: var(--white);
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.card li span {
+  font-size: 20px;
+}
+.invesment {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.timeline {
+  /* margin-top: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.invesment h4,
+.timeline h4 {
+  font-size: 14px;
+}
+.invesment p,
+.timeline p {
+  font-size: 13px;
+}
+.card button {
+  background-color: var(--white);
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+  padding: 9px 0;
+  font-size: 15px;
+}
+.additional-services {
+  padding-top: 60px;
+}
+.flex {
+  padding-top: 20px;
+}
+.additional-services h3 {
+  font-size: 22px;
+  color: var(--white);
+  text-align: center;
+  padding: 10px;
+}
+.additional-service {
+  /* width: 300px; */
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.additional-service .icon {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.additional-service h4 {
+  font-size: 15px;
+}
+.additional-service p {
+  padding-top: 30px;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+.additional-services .lets-discuss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.additional-services .discuss {
+  padding-top: 40px;
+  font-size: 15px;
+  color: var(--primary-color);
+  text-align: center;
+}
+.additional-services .shedule-button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .card .tag {
+    position: absolute;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    left: 40%;
+    top: -14px;
+  }
+  .icons .icon {
+    padding: 4px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    stroke: red;
+  }
+  .card h4 {
+    margin: 18px 0;
+    font-size: 14px;
+    color: var(--white);
+  }
+  .card p {
+    font-size: 13px;
+    color: var(--primary-color);
+  }
+  .card ul {
+    margin-top: 30px;
+  }
+  .card li {
+    padding-top: 6px;
+    list-style: none;
+    font-size: 11px;
+    color: var(--white);
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .card li span {
+    font-size: 15px;
+  }
+  .invesment {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .timeline {
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .invesment h4,
+  .timeline h4 {
+    font-size: 10px;
+  }
+  .invesment p,
+  .timeline p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 360px) and (max-width: 750px) {
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 300px;
+  }
+  .additional-services .lets-discuss {
+    padding: 40px 0px;
+  }
+}

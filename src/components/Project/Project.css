@@ -1,0 +1,121 @@
+.main {
+  padding: 30px 140px 20px 140px;
+}
+.project {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.right-part h5 {
+  width: max-content;
+  font-size: 14px;
+  padding: 6px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+.right-part .title {
+  margin-top: 12px;
+  font-size: 24px;
+}
+.right-part .subtitle {
+  padding-top: 15px;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+.right-part .all-stacks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px 0px;
+}
+.all-stacks .stack {
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  font-size: 13px;
+  background-color: #262626;
+}
+.right-part .my-effcts {
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* justify-content: space-evenly; */
+}
+.right-part .my-effcts .effect {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.right-part .my-effcts .effect .icon {
+  font-size: 18px;
+}
+.right-part .my-effcts .effect h6 {
+  font-size: 16px;
+}
+.right-part .my-effcts .effect span {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+.right-part .buttons {
+  margin-top: 18px;
+  display: flex;
+  gap: 15px;
+}
+.right-part button {
+  background-color: #181818;
+  color: var(--white);
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+
+@media (min-width: 360px) and (max-width: 750px) {
+  .main {
+    padding: 40px 10px;
+  }
+  .project {
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+  }
+  .left-part img {
+    height: 250px;
+  }
+  .right-part {
+    padding: 0px 20px;
+  }
+  .right-part .title {
+    font-size: 20px;
+    text-align: start;
+  }
+  .right-part .subtitle {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .right-part .my-effcts .effect .icon {
+    font-size: 14px;
+  }
+  .right-part .my-effcts .effect h6 {
+    font-size: 12px;
+  }
+  .right-part .my-effcts .effect span {
+    font-size: 11px;
+    color: var(--primary-color);
+  }
+}

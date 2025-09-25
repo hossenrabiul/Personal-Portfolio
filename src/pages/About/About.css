@@ -1,0 +1,143 @@
+#about {
+  padding: 10px 10px 40px 10px;
+}
+.why-me-part {
+  margin-top: 70px;
+  padding: 20px 0px 10px 140px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.why-me {
+  color: var(--white);
+  font-size: 32px;
+}
+.why-me-left-site {
+  width: 70%;
+}
+.about-skills {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-skills h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--white);
+}
+.about-skills .mark {
+  font-size: 30px;
+  color: green;
+}
+
+.about-skills p {
+  padding: 5px 0 0 0;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+/* Right-site CSS */
+
+.why-me-right-site {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.why-me-right-site .elem {
+  width: 270px;
+  padding: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+.why-me-right-site .elem-img {
+  font-size: 30px;
+  color: var(--white);
+}
+.why-me-right-site h6 {
+  margin: 7px 0;
+  font-size: 18px;
+  color: var(--white);
+}
+.why-me-right-site p {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+/* Technologies CSS */
+.technologies {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.technologies h3 {
+  font-size: 20px;
+}
+.all-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.all-stack h6 {
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 13px;
+  color: var(--white);
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .why-me-part {
+    padding: 6px;
+    gap: 20px;
+  }
+  .why-me-left-site {
+    width: 100%;
+  }
+  .why-me {
+    font-size: 22px;
+  }
+  .about-skills h4 {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .about-skills .mark {
+    font-size: 20px;
+  }
+
+  .about-skills p {
+    font-size: 12px;
+  }
+  .why-me-right-site .elem {
+    width: 160px;
+    /* padding: 17px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px; */
+  }
+  .why-me-right-site .elem-img {
+    font-size: 20px;
+  }
+  .why-me-right-site h6 {
+    margin: 7px 0;
+    font-size: 16px;
+  }
+  .why-me-right-site p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 360px) and (max-width: 750px) {
+  .why-me-part {
+    padding: 0px 30px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .why-me-left-site {
+    width: 100%;
+  }
+}
