@@ -1,0 +1,105 @@
+.testimonials-card {
+  /* width: 350px; */
+  background-color: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+}
+.testimonials-card .stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.testimonials-card .stars .star {
+  font-size: 18px;
+}
+.testimonials-card .quote {
+  font-size: 28px;
+  margin-top: 12px;
+  padding-top: 5px;
+}
+.testimonials-card .description {
+  margin-top: 18px;
+  font-size: 16px;
+  color: var(--primary-color);
+  line-height: 28px;
+}
+.testimonials-card .professor {
+  margin-top: 18px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.testimonials-card .professor .professor-img img {
+  width: 40px;
+  border-radius: 50%;
+}
+.professor-identity .name {
+  font-size: 16px;
+  color: var(--white);
+  padding-top: 3px;
+}
+.professor-identity p {
+  font-size: 13px;
+  color: var(--primary-color);
+  padding-top: 3px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .testimonials-card {
+    padding: 15px;
+  }
+  .testimonials-card .stars .star {
+    font-size: 13px;
+  }
+  .testimonials-card .quote {
+    font-size: 20px;
+  }
+  .testimonials-card .description {
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--primary-color);
+    line-height: 28px;
+  }
+  .testimonials-card .professor {
+    margin-top: 18px;
+  }
+  .testimonials-card .professor .professor-img img {
+    width: 30px;
+  }
+  .professor-identity .name {
+    font-size: 14px;
+  }
+  .professor-identity p {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 750px) {
+  .testimonials-card {
+    padding: 15px;
+  }
+  .testimonials-card .stars .star {
+    font-size: 13px;
+  }
+  .testimonials-card .quote {
+    font-size: 20px;
+  }
+  .testimonials-card .description {
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--primary-color);
+    line-height: 28px;
+  }
+  .testimonials-card .professor {
+    margin-top: 18px;
+  }
+  .testimonials-card .professor .professor-img img {
+    width: 30px;
+  }
+  .professor-identity .name {
+    font-size: 14px;
+  }
+  .professor-identity p {
+    font-size: 11px;
+  }
+}

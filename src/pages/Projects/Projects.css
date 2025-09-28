@@ -2,3 +2,23 @@
     padding: 60px 0px;
     background-color: #0A0A0A;
 }
+.lets-discuss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discuss {
+  padding-top: 40px;
+  font-size: 15px;
+  color: var(--primary-color);
+  text-align: center;
+}
+.shedule-button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

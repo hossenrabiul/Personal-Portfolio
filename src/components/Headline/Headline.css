@@ -12,12 +12,13 @@
   border-radius: 8px;
   background-color: #262626;
 }
-.title {
+.headline-title {
   margin-top: 20px;
   font-size: 36px;
   color: #fafafa;
+  text-align: center;
 }
-.primary-title {
+.headline-primary-title {
   margin-top: 10px;
   font-size: 16px;
   color: var(--primary-color);
@@ -26,16 +27,16 @@
   line-height: 29px;
 }
 @media (min-width: 360px) and (max-width: 750px) {
-    .headline{
-        padding: 5px 30px;
-    }
-  .title {
+  .headline {
+    padding: 5px 30px;
+  }
+  .headline-title {
     margin-top: 20px;
     font-size: 24px;
     text-align: center;
     color: #fafafa;
   }
-  .primary-title {
+  .headline-primary-title {
     margin-top: 10px;
     font-size: 18px;
     color: var(--primary-color);

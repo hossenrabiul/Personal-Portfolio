@@ -1,0 +1,125 @@
+.contact {
+  padding: 60px 140px;
+  background-color: #0a0a0a;
+}
+.input-box {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  /* align-items: center; */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.input-box .project-details {
+  width: 55%;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.input-box .get-in-touch {
+  width: 40%;
+  height: max-content;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.project-details-title {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.project-details-subtitle {
+  font-size: 15px;
+  color: var(--primary-color);
+  padding-top: 5px;
+}
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 17px;
+}
+.input-box .input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 17px;
+}
+.input-box .input label {
+  font-size: 14px;
+  color: var(--white);
+  padding-bottom: 5px;
+}
+.input-box .input input,
+select,
+textarea {
+  padding: 12px;
+  background-color: #121212;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline: #ffff;
+}
+.input-box select option {
+  border-radius: 10px;
+  background-color: #0a0a0a;
+}
+.input-box select option:hover {
+  background-color: #121212;
+}
+.input-box .input input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+}
+.input-box .input input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 1px 1px 8px var(--primary-color);
+}
+.get-in-touch > div {
+  margin-bottom: 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.get-in-touch h4 {
+  font-size: 17px;
+  color: var(--white);
+}
+.get-in-touch p {
+  font-size: 14px;
+  color: var(--primary-color);
+  padding-top: 2px;
+}
+.get-in-touch .icon {
+  font-size: 25px;
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .input-box .project-details {
+    width: 100%;
+  }
+  .input-box .get-in-touch {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 750px) {
+  .contact {
+    padding: 60px 10px;
+    background-color: #0a0a0a;
+  }
+  .input-box .project-details {
+    width: 100%;
+  }
+  .input-box .get-in-touch {
+    width: 100%;
+  }
+  .grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 17px;
+  }
+}

@@ -6,9 +6,12 @@ nav {
   position: fixed;
   width: 100%;
 }
+nav .menu-btn{
+  display: none;
+}
 nav .menu {
   font-size: 20px;
-  display: none;
+  cursor: pointer;
 }
 nav h4 {
   font-size: 24px;
@@ -149,7 +152,62 @@ main .limited-time {
   color: var(--primary-color);
 }
 
-@media (min-width: 768px) and (max-width:1024px) {
+
+.absolute {
+  padding: 10px 20px;
+  width: 380px;
+  height: 600px;
+  background-color: #0a0a0a;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.not-absolute {
+  display: none;
+}
+.absolute .absolute-nav {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.absolute-nav h4 {
+  font-size: 24px;
+  color: var(--white);
+}
+.absolute-nav-links ul {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 30px;
+}
+.absolute-nav-links ul li {
+  list-style: none;
+  font-size: 14px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.absolute-nav-links ul li:hover {
+  color: var(--white);
+}
+.absolute-nav-button button {
+  padding: 10px 15px;
+  background-color: var(--white);
+  color: #111;
+  font-size: 12px;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+}
+.absolute .cross{
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
   nav {
     padding: 10px 20px;
   }
@@ -162,12 +220,15 @@ main .limited-time {
   .button {
     display: none;
   }
-  nav .menu {
+  nav .menu-btn {
     display: block;
   }
   nav h4 {
     font-size: 16px;
     font-weight: 400;
+  }
+  .absolute h4{
+    font-size: 15px;
   }
   main {
     padding: 70px 10px 10px 10px;
