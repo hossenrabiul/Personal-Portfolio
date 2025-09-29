@@ -10,35 +10,38 @@ import gsap from "gsap";
 import { ImCross } from "react-icons/im";
 
 export const Header = () => {
-  const [on, setOn] = useState(false)
+  const [on, setOn] = useState(false);
   const onSubmit = () => {
     // gsap.to(".absolute", {
     //   translateX: "200px",
     // });
     // setOn(false);
   };
+  const scrollToSection = (id) => {
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div>
       <nav className="poppins-100">
         <div className="name">
-          <h4 className="poppins-200">
-            Rabiul Hosen
-          </h4>
+          <h4 className="poppins-200">Rabiul Hosen</h4>
         </div>
         <div className="nav-links">
           <ul className="poppins-600">
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
+            <li onClick={() => scrollToSection("#about")}>About</li>
+            <li onClick={() => scrollToSection("#services")}>Services</li>
+            <li onClick={() => scrollToSection("#portfolio")}>Portfolio</li>
+            <li onClick={() => scrollToSection("#testimonials")}>
+              Testimonials
+            </li>
+            <li onClick={() => scrollToSection("#contact")}>Contact</li>
           </ul>
         </div>
         <div className="button">
           <button className="poppins-600">Get Started</button>
         </div>
         <h6 className="menu-btn">
-          <LuMenu className="menu" onClick={()=> setOn(true)} />
+          <LuMenu className="menu" onClick={() => setOn(true)} />
         </h6>
       </nav>
       <main>
@@ -93,11 +96,13 @@ export const Header = () => {
           </div>
           <div className="absolute-nav-links">
             <ul className="poppins-600">
-              <li>About</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Testimonials</li>
-              <li>Contact</li>
+              <li onClick={() => scrollToSection("#about")}>About</li>
+              <li onClick={() => scrollToSection("#services")}>Services</li>
+              <li onClick={() => scrollToSection("#portfolio")}>Portfolio</li>
+              <li onClick={() => scrollToSection("#testimonials")}>
+                Testimonials
+              </li>
+              <li onClick={() => scrollToSection("#contact")}>Contact</li>
             </ul>
           </div>
           <div className="absolute-nav-button">
@@ -105,7 +110,7 @@ export const Header = () => {
           </div>
         </div>
         <div>
-          <ImCross className="cross" onClick={()=> setOn(false)}/>
+          <ImCross className="cross" onClick={() => setOn(false)} />
         </div>
       </div>
     </div>
