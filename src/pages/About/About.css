@@ -93,6 +93,7 @@
   color: var(--white);
 }
 @media (min-width: 760px) and (max-width: 1024px) {
+ 
   .why-me-part {
     padding: 6px;
     gap: 20px;
@@ -132,6 +133,7 @@
   }
 }
 @media (min-width: 360px) and (max-width: 750px) {
+  
   .why-me-part {
     padding: 0px 30px;
     flex-direction: column;

@@ -26,10 +26,11 @@
 }
 .testimonials-cards {
   margin-top: 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 10px;
 }
 .testimonials-card {
@@ -114,10 +115,18 @@
   .testimonials {
     padding: 60px 20px;
   }
+  .testimonials-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 750px) {
   .testimonials {
     padding: 60px 20px;
+  }
+  .testimonials-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
 }

@@ -43,7 +43,8 @@ nav button {
 /* Main CSS */
 main {
   padding-top: 120px;
-  height: 100vh;
+  padding-bottom: 20px;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -210,10 +211,15 @@ main .limited-time {
   nav {
     padding: 10px 20px;
   }
+  main h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+  }
   main .primary-headline {
     width: 700px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     color: var(--primary-color);
@@ -239,18 +245,19 @@ main .limited-time {
     font-size: 15px;
   }
   main {
-    padding: 70px 10px 10px 10px;
+    padding: 70px 10px 90px 10px;
   }
   main h1 {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 30px;
   }
   main .primary-headline {
-    width: 330px;
-    font-size: 15px;
-    font-weight: 500;
+    width: 350px;
+    font-size: 16px;
+    /* font-weight: 500; */
     line-height: 26px;
     text-align: center;
+    color: (--primary-color)
   }
   main .buttons {
     flex-direction: column;

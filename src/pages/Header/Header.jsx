@@ -58,19 +58,12 @@ export const Header = () => {
           Building Scalable, Modern, and Impactful <br />
           <span>Digital Experiences</span>
         </h1>
-        <p className="poppins-200 primary-headline">
-          Full-stack software engineer crafting{" "}
-          <strong className="poppins-600">
-            high-performance web applications
-          </strong>
-          {" "} that deliver seamless experiences across devices. From{" "}
-          <strong className="poppins-600">intuitive user interfaces</strong> to{" "}
-          <strong className="poppins-600">robust back-end architectures</strong>
-          , I design and develop complete solutions focused on{" "}
-          <strong className="poppins-600">
-            scalability, security, and business impact
-          </strong>
-          .
+        <p className="poppins-300 primary-headline">
+          Full-stack software engineer crafting high-performance web
+          applications that deliver seamless experiences across devices. From
+          intuitive user interfaces robust back-end architectures, I design and
+          develop complete solutions focused on scalability, security, and
+          business impact .
         </p>
         <div className="icons">
           <div className="arrow-icon">
