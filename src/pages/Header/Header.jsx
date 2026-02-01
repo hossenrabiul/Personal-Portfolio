@@ -38,7 +38,16 @@ export const Header = () => {
           </ul>
         </div>
         <div className="button">
-          <button className="poppins-600">Get Started</button>
+          <button
+            className="poppins-600"
+            onClick={() =>
+              document
+                .querySelector("#contact")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Get Started
+          </button>
         </div>
         <h6 className="menu-btn">
           <LuMenu className="menu" onClick={() => setOn(true)} />
@@ -46,14 +55,22 @@ export const Header = () => {
       </nav>
       <main>
         <h1 className="poppins-200">
-          I Build Digital <br /> <span>Experience</span>
+          Building Scalable, Modern, and Impactful <br />
+          <span>Digital Experiences</span>
         </h1>
         <p className="poppins-200 primary-headline">
-          Freelance developer specializing in{" "}
-          <strong className="poppins-600">Web, Mobile</strong> and{" "}
-          <strong className="poppins-600">Desktop Applications</strong>. I turn
-          your ideas into powerful digital solutions that drive real business
-          results.{" "}
+          Full-stack software engineer crafting{" "}
+          <strong className="poppins-600">
+            high-performance web applications
+          </strong>
+          that deliver seamless experiences across devices. From
+          <strong className="poppins-600">intuitive user interfaces</strong> to
+          <strong className="poppins-600">robust back-end architectures</strong>
+          , I design and develop complete solutions focused on
+          <strong className="poppins-600">
+            scalability, security, and business impact
+          </strong>
+          .
         </p>
         <div className="icons">
           <div className="arrow-icon">
@@ -76,15 +93,31 @@ export const Header = () => {
           </div>
         </div>
         <div className="buttons poppins-200">
-          <button className="left-button poppins-100">
+          <button
+            className="left-button poppins-100"
+            onClick={() =>
+              document
+                .querySelector("#contact")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
             Start Your Project <TiArrowRight className="right-img" />
           </button>
-          <button className="right-button poppins-100">View My Work</button>
+          <button
+            className="right-button poppins-100"
+            onClick={() =>
+              document
+                .querySelector("#portfolio")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            View My Work
+          </button>
         </div>
-        <p className="limited-time poppins-400">
+        {/* <p className="limited-time poppins-400">
           📅 <strong>Limited availability</strong> - Only taking 2 new projects
           this month
-        </p>
+        </p> */}
       </main>
 
       <div className={`${on ? "absolute" : "not-absolute"}`}>

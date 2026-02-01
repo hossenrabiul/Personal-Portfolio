@@ -6,7 +6,7 @@ nav {
   position: fixed;
   width: 100%;
 }
-nav .menu-btn{
+nav .menu-btn {
   display: none;
 }
 nav .menu {
@@ -51,7 +51,7 @@ main {
   gap: 10px;
 }
 main h1 {
-  font-size: 64px;
+  font-size: 62px;
   text-align: center;
   line-height: 70px;
 }
@@ -59,7 +59,7 @@ main h1 span {
   color: gray;
 }
 main .primary-headline {
-  width: 640px;
+  width: 900px;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -152,7 +152,6 @@ main .limited-time {
   color: var(--primary-color);
 }
 
-
 .absolute {
   padding: 10px 20px;
   width: 380px;
@@ -202,7 +201,7 @@ main .limited-time {
   border: none;
   width: 100%;
 }
-.absolute .cross{
+.absolute .cross {
   font-size: 15px;
   cursor: pointer;
 }
@@ -210,6 +209,15 @@ main .limited-time {
 @media (min-width: 760px) and (max-width: 1024px) {
   nav {
     padding: 10px 20px;
+  }
+  main .primary-headline {
+    width: 700px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--primary-color);
+    padding-top: 10px;
   }
 }
 @media (min-width: 360px) and (max-width: 750px) {
@@ -227,7 +235,7 @@ main .limited-time {
     font-size: 16px;
     font-weight: 400;
   }
-  .absolute h4{
+  .absolute h4 {
     font-size: 15px;
   }
   main {

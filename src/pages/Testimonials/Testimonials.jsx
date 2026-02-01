@@ -37,19 +37,19 @@ const Testimonials = () => {
       <div className="testimonials-cards">
         <Card
           img="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&face=top"
-          description="Sujyot delivered our sustainability platform ahead of schedule and exceeded all expectations. The app has transformed how we track our environmental impact and saved us over $2M in the first year."
+          description="Rabiul delivered our sustainability platform ahead of schedule and exceeded all expectations. The app has transformed how we track our environmental impact and saved us over $2M in the first year."
         />
         <Card
           img={
             "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&face=top"
           }
-          description="The fitness app Sujyot built has been a game-changer for our business. We've seen 50K+ downloads and 85% user retention. His attention to detail and understanding of user experience is exceptional."
+          description="The fitness app Rabiul built has been a game-changer for our business. We've seen 50K+ downloads and 85% user retention. His attention to detail and understanding of user experience is exceptional."
         />
         <Card
           img={
             "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&face=top"
           }
-          description="Our desktop invoicing tool has streamlined our entire billing process. What used to take 40 hours a month now takes just 5. Sujyot's technical expertise and business acumen are unmatched."
+          description="Our desktop invoicing tool has streamlined our entire billing process. What used to take 40 hours a month now takes just 5. Rabiul's technical expertise and business acumen are unmatched."
         />
       </div>
       <div className="ready-to-join">
