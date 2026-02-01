@@ -63,10 +63,10 @@ export const Header = () => {
           <strong className="poppins-600">
             high-performance web applications
           </strong>
-          that deliver seamless experiences across devices. From
-          <strong className="poppins-600">intuitive user interfaces</strong> to
+          {" "} that deliver seamless experiences across devices. From{" "}
+          <strong className="poppins-600">intuitive user interfaces</strong> to{" "}
           <strong className="poppins-600">robust back-end architectures</strong>
-          , I design and develop complete solutions focused on
+          , I design and develop complete solutions focused on{" "}
           <strong className="poppins-600">
             scalability, security, and business impact
           </strong>
